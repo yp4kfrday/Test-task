@@ -1,0 +1,83 @@
+header {
+  position: fixed;
+  display: flex;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 320px);
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15%;
+  transition: top 0.3s ease-in-out;
+}
+
+.scrolled {
+  top: -100px;
+}
+
+.logo {
+  flex: 1;
+  text-align: center;
+  margin-left: -30px; /* учитываем отступ слева */
+  margin-right: -30px; /* учитываем отступ справа */
+}
+
+.logo h1 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #35B8FC;
+  text-align: center;
+}
+
+.navlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: -30px; /* учитываем отступ слева */
+  margin-right: -30px; /* учитываем отступ справа */
+}
+
+.navlist li {
+  margin-right: 60px;
+  
+}
+
+.link {
+  color: #553B91;
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all .55s ease;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.link:hover{
+  color: #37B9FC;
+}
+
+.navlist a {
+  color: #553B91;
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all .55s ease;
+}
+
+.navlist li:hover a {
+  color: #37B9FC;
+}
+
+.icons {
+  display: flex;
+  justify-content: center; /* center the icons horizontally */
+  align-items: center;
+}
+
+.icons svg {
+  margin-right: 16px;
+  margin-left: 16px;
+}

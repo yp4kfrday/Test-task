@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(242, 243, 247);
+}

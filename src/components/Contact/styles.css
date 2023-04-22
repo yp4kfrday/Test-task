@@ -1,0 +1,16 @@
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* adds spacing between the form elements */
+  }
+
+  .round-button {
+    border-radius: 50%;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

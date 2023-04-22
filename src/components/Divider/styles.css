@@ -1,0 +1,18 @@
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #943d24;
+  }
+  
+  .divider::before,
+  .divider::after {
+    display: block;
+    width: 50%;
+  }
+  
+  .divider h1 {
+    font-size: 46px;
+    font-weight: bold;
+    color: #fffbf0;
+  }
